@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+    <MB_AdminMoney>
+        <version>0.0.1</version>
+    </MB_AdminMoney>
+</modules>
+
+<global>
+    <models>
+        <MB_AdminMoney>
+            <class>MB_AdminMoney_Model</class>
+        </MB_AdminMoney>
+    </models>
+    <events>
+        <payment_method_is_active>
+            <observers>
+                <MB_AdminMoney>
+                    <type>singleton</type>
+                    <class>MB_AdminMoney/Observer</class>
+                    <method>paymentMethodIsActive</method>
+                </MB_AdminMoney>
+            </observers>
+        </payment_method_is_active>
+    </events>
+</global>
+
+</config>
