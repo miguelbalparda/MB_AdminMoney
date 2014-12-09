@@ -10,3 +10,5 @@ Remember to enable Check / Money Order to make this extension work.
 Source: http://stackoverflow.com/questions/14022921/cash-on-delivery-activated-admin-only-not-frontend-enabled-magento
 
 Original idea: http://stackoverflow.com/users/773329/swiftotter-studios
+
+Available in Magento Connect at <a href="http://www.magentocommerce.com/magento-connect/check-money-order-for-admin.html">http://www.magentocommerce.com/magento-connect/check-money-order-for-admin.html</a>
